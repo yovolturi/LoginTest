@@ -30,7 +30,7 @@ public class LoginActiviry extends AppCompatActivity {
             public void onClick(View view) {
 
                 nameString =nameEditText.getText().toString().trim();
-                Toast.makeText(getApplicationContext(), "hello",Toast.LENGTH_SHORT) .show();
+                Toast.makeText(getApplicationContext(), "hello "+nameString,Toast.LENGTH_SHORT) .show();
 
             }
         });
